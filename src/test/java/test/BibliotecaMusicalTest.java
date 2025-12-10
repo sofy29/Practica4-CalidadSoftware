@@ -78,7 +78,7 @@ public class BibliotecaMusicalTest {
     // 4) assertNotNull
     @Test
     public void testAssertNotNull_buscarUsuarioExistente() {
-        Usuario u = biblioteca.buscarUsuarioPorNombre("alice");
+        Usuario u = biblioteca.buscarUsuarioPorNombre("ana");
         assertNotNull("El usuario alice debe existir", u);
     }
 
