@@ -40,8 +40,6 @@ public class BibliotecaMusicalTest {
         biblioteca.registrarUsuario(usuarioGratis);
 
         c1 = new Cancion("Song A", "Artist 1", 100);
-        c2 = new Cancion("Song B", "Artist 1", 120);
-        c3 = new Cancion("Song C", "Artist 2", 200);
 
         biblioteca.agregarCancionACatalogo(c1);
         biblioteca.agregarCancionACatalogo(c2);
