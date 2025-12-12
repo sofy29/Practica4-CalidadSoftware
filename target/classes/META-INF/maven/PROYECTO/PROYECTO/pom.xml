@@ -4,18 +4,18 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <!-- Puedes dejar PROYECTO si quieres -->
     <groupId>PROYECTO</groupId>
     <artifactId>PROYECTO</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <!-- Java 17, que es lo que tienes en Eclipse -->
+    <!-- Java 17 -->
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <!-- 📦 Dependencias -->
     <dependencies>
         <!-- JUnit 4 para las pruebas -->
         <dependency>
@@ -26,15 +26,37 @@
         </dependency>
     </dependencies>
 
+    <!-- 🔧 Plugins de construcción -->
     <build>
         <plugins>
-            <!-- Compilador de Maven -->
+            <!-- Compilador -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.10.1</version>
                 <configuration>
                     <release>17</release>
+                </configuration>
+            </plugin>
+
+            <!-- ✅ Checkstyle -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>3.3.1</version>
+                <executions>
+                    <execution>
+                        <id>validate</id>
+                        <phase>validate</phase>
+                        <goals>
+                            <goal>check</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <!-- Usa el fichero google_checks.xml de tu proyecto -->
+                    <configLocation>google_checks.xml</configLocation>
+                    <failOnViolation>true</failOnViolation>
                 </configuration>
             </plugin>
         </plugins>

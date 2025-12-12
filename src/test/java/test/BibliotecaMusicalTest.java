@@ -57,7 +57,7 @@ public class BibliotecaMusicalTest {
     @Test
     public void testAssertEquals_numCancionesPorArtista() {
         List<Cancion> resultado = biblioteca.buscarCancionPorArtista("Artist 1");
-        assertEquals("Debe haber 2 canciones de Artist 1", 700, resultado.size());
+        assertEquals("Debe haber 2 canciones de Artist 1", 2, resultado.size());
     }
 
     // 2) assertTrue
@@ -78,7 +78,7 @@ public class BibliotecaMusicalTest {
     // 4) assertNotNull
     @Test
     public void testAssertNotNull_buscarUsuarioExistente() {
-        Usuario u = biblioteca.buscarUsuarioPorNombre("ana");
+        Usuario u = biblioteca.buscarUsuarioPorNombre("alice");
         assertNotNull("El usuario alice debe existir", u);
     }
 
