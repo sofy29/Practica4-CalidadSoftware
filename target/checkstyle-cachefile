@@ -1,4 +1,6 @@
-#Sun Dec 14 12:23:20 CET 2025
-configuration*?=2C7C8DA9F875733251530203D2C6539FCB6E1B25
-module-resource*?\:checkstyle-suppressions.xml=FFE3853FFF9E0316244501082CECAAD554DA8BC1
-module-resource*?\:checkstyle-xpath-suppressions.xml=B569D8A0040339552896BF8C25D9B247562DB495
+#Mon Dec 15 14:04:19 CET 2025
+C\:\\Users\\sofyb\\eclipse-workspace\\PROYECTO\\src\\main\\java\\musica\\BibliotecaMusical.java=1765389753333
+C\:\\Users\\sofyb\\eclipse-workspace\\PROYECTO\\src\\main\\java\\musica\\Cancion.java=1763484476177
+C\:\\Users\\sofyb\\eclipse-workspace\\PROYECTO\\src\\main\\java\\musica\\Playlist.java=1763484488611
+C\:\\Users\\sofyb\\eclipse-workspace\\PROYECTO\\src\\main\\java\\musica\\Usuario.java=1763484500065
+configuration*?=5E53912F35B2F8C31191F445C1103C2001FCF854
