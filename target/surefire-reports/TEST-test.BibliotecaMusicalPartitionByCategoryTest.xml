@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="ES"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-20\bin"/>
-    <property name="sun.java.command" value="C:\Users\sofyb\AppData\Local\Temp\surefire17605570093197754262\surefirebooter-20251215140420336_3.jar C:\Users\sofyb\AppData\Local\Temp\surefire17605570093197754262 2025-12-15T14-04-20_111-jvmRun1 surefire-20251215140420336_1tmp surefire_0-20251215140420336_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\sofyb\AppData\Local\Temp\surefire10571034618224003177\surefirebooter-20251215141415029_3.jar C:\Users\sofyb\AppData\Local\Temp\surefire10571034618224003177 2025-12-15T14-14-14_745-jvmRun1 surefire-20251215141415029_1tmp surefire_0-20251215141415029_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\sofyb\eclipse-workspace\PROYECTO\target\test-classes;C:\Users\sofyb\eclipse-workspace\PROYECTO\target\classes;C:\Users\sofyb\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\sofyb\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\sofyb\AppData\Local\Temp\surefire17605570093197754262\surefirebooter-20251215140420336_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\sofyb\AppData\Local\Temp\surefire10571034618224003177\surefirebooter-20251215141415029_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="20.0.2+9-78"/>
@@ -59,7 +59,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="64.0"/>
   </properties>
-  <testcase name="testCategoriaCatalogo_agregarYBuscarCanciones" classname="test.BibliotecaMusicalPartitionByCategoryTest" time="0.007"/>
+  <testcase name="testCategoriaCatalogo_agregarYBuscarCanciones" classname="test.BibliotecaMusicalPartitionByCategoryTest" time="0.005"/>
   <testcase name="testCategoriaPlaylists_crearYBuscarPlaylists" classname="test.BibliotecaMusicalPartitionByCategoryTest" time="0.0"/>
-  <testcase name="testCategoriaUsuarios_registroYBusqueda" classname="test.BibliotecaMusicalPartitionByCategoryTest" time="0.001"/>
+  <testcase name="testCategoriaUsuarios_registroYBusqueda" classname="test.BibliotecaMusicalPartitionByCategoryTest" time="0.0"/>
 </testsuite>
