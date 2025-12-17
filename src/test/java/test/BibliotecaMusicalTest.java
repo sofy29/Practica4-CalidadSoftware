@@ -63,7 +63,7 @@ public class BibliotecaMusicalTest {
     // 2) assertTrue
     @Test
     public void testAssertTrue_listaContieneCancion() {
-        List<Cancion> resultado = biblioteca.buscarCancionPorTitulo("Song A");
+        List<Cancion> resultado = biblioteca.buscarCancionPorTitulo("Song No existe");
         assertTrue("La lista debe contener la canción c1", resultado.contains(c1));
     }
 
