@@ -2,7 +2,8 @@
 <checkstyle version="9.3">
 <file name="C:\Users\sofyb\eclipse-workspace\PROYECTO\src\main\java\musica\BibliotecaMusical.java">
 <error line="7" column="1" severity="warning" message="Falta el comentario Javadoc." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
-<error line="9" column="5" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="1" severity="warning" message="La línea contiene un carácter de tabulación." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="9" column="9" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="10" column="5" severity="warning" message="&apos;member def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="12" column="5" severity="warning" message="&apos;ctor def modifier&apos; estás en el nivel de sangrado 4, pero esto no es el nivel correcto. Se esperaba el nivel 2." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
 <error line="13" column="9" severity="warning" message="El hijo de &apos;ctor def&apos; estás en el nivel de sangrado 8, pero esto no es el nivel correcto. Se esperaba el nivel 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
