@@ -15,7 +15,7 @@ public class AllTestsRunner {
                 BibliotecaMusicalTestFallos.class
         );
 
-        int total = result.getRunCount();
+        int total=result.getRunCount();
         int fallos = result.getFailureCount();
         int ignorados = result.getIgnoreCount();
         int exitosos = total - fallos - ignorados;

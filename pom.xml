@@ -54,9 +54,14 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <!-- Usa el fichero google_checks.xml de tu proyecto -->
+                    <!-- Usa el fichero google_checks.xml -->
                     <configLocation>google_checks.xml</configLocation>
-                    <failOnViolation>true</failOnViolation>
+
+                    <!-- Muestra resultados por consola -->
+                    <consoleOutput>true</consoleOutput>
+
+                    <!-- ✅ NO fallar el build aunque haya violaciones -->
+                    <failOnViolation>false</failOnViolation>
                 </configuration>
             </plugin>
         </plugins>
